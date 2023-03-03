@@ -27,10 +27,13 @@ CREATE TABLE IF NOT EXISTS coworkers
 
 SHOW TABLES;
 
+# Struktur der Tabelle anzeigen
 DESCRIBE coworkers;
 
+# Tabelle mit Daten füllen
 INSERT INTO coworkers(firstName, location, age, computer) VALUES ("MAX", "office", 35, "PC");
 INSERT INTO coworkers(firstName, location, age, computer) VALUES ("GARNI", "pool", 36, "iPad");
 INSERT INTO coworkers(firstName, location, age, computer) VALUES ("INGO", "duenen", 54, "Laptop");
 
+# Inhalte der Tabelle anzeigen
 SELECT * FROM coworkers;
