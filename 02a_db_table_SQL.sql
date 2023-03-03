@@ -36,4 +36,5 @@ INSERT INTO coworkers(firstName, location, age, computer) VALUES ("GARNI", "pool
 INSERT INTO coworkers(firstName, location, age, computer) VALUES ("INGO", "duenen", 54, "Laptop");
 
 # Inhalte der Tabelle anzeigen
-SELECT * FROM coworkers;
+SELECT * FROM coworkers WHERE location = "duenen";
+
