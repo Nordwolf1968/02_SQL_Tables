@@ -28,3 +28,9 @@ CREATE TABLE IF NOT EXISTS coworkers
 SHOW TABLES;
 
 DESCRIBE coworkers;
+
+INSERT INTO coworkers(firstName, location, age, computer) VALUES ("MAX", "office", 35, "PC");
+INSERT INTO coworkers(firstName, location, age, computer) VALUES ("GARNI", "pool", 36, "iPad");
+INSERT INTO coworkers(firstName, location, age, computer) VALUES ("INGO", "duenen", 54, "Laptop");
+
+SELECT * FROM coworkers;
