@@ -6,3 +6,9 @@
 
 /* Datenbanken auf Server anzeigen */
 SHOW DATABASES;
+
+DROP DATABASE IF EXISTS boo;
+
+#CREATE DATABASE IF NOT EXISTS boo;
+
+SHOW DATABASES;
