@@ -32,7 +32,7 @@ DESCRIBE coworkers;
 
 # Tabelle mit Daten füllen
 INSERT INTO coworkers(firstName, location, age, computer) VALUES ("MAX", "office", 35, "PC");
-INSERT INTO coworkers(firstName, location, age, computer) VALUES ("GARNI", "pool", 36, "iPad");
+INSERT INTO coworkers(firstName, location, age, computer) VALUES ("GANI", "pool", 36, "iPad");
 INSERT INTO coworkers(firstName, location, age, computer) VALUES ("INGO", "duenen", 54, "Laptop");
 
 SELECT * FROM coworkers;
@@ -49,6 +49,11 @@ FROM coworkers
 
 SELECT
     firstName AS "NAME",
-    location AS "ORT"
+    location AS "ORT",
+    age AS "Alter"
 FROM coworkers
+# WHERE age > 35
+# ORDER BY age ASC
+ORDER BY age DESC
 ;
+
