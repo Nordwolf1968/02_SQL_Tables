@@ -53,7 +53,7 @@ SELECT
     age AS "Alter"
 FROM coworkers
 # WHERE age > 35
-# ORDER BY age ASC
-ORDER BY age DESC
+# ORDER BY age ASC    # aufsteigend
+ORDER BY age DESC     # absteigend
 ;
 
