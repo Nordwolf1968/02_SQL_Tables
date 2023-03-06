@@ -38,7 +38,7 @@ INSERT INTO coworkers(firstName, location, age, computer) VALUES ("INGO", "duene
 SELECT * FROM coworkers;
 
 # Inhalte der Tabelle anzeigen
-SELECT * FROM coworkers WHERE location = "duenen";
+# SELECT * FROM coworkers WHERE location = "duenen";
 
 # Inhalte sortieren
 
@@ -48,7 +48,7 @@ FROM coworkers
 ;
 
 SELECT
-    firstName,
-    location
+    firstName AS "NAME",
+    location AS "ORT"
 FROM coworkers
 ;
