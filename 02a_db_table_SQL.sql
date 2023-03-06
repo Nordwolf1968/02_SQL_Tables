@@ -35,6 +35,20 @@ INSERT INTO coworkers(firstName, location, age, computer) VALUES ("MAX", "office
 INSERT INTO coworkers(firstName, location, age, computer) VALUES ("GARNI", "pool", 36, "iPad");
 INSERT INTO coworkers(firstName, location, age, computer) VALUES ("INGO", "duenen", 54, "Laptop");
 
+SELECT * FROM coworkers;
+
 # Inhalte der Tabelle anzeigen
 SELECT * FROM coworkers WHERE location = "duenen";
 
+# Inhalte sortieren
+
+SELECT
+    *
+FROM coworkers
+;
+
+SELECT
+    firstName,
+    location
+FROM coworkers
+;
